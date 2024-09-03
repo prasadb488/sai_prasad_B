@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 227, 227);
+}
+
+header{
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+    color: blue;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    color:whitesmoke;
+    display:inline-block;
+    padding: 10px 15px;
+}
+
+h2{
+   color: blue 
+}
+
+.container{
+    background-color: rgb(234, 227, 227);
+}
+
+.overview{
+    background-color: rgb(255, 254, 254);
+    padding: 10px 15px;
+    padding-bottom: 5px;
+    
+}
+.Curriculam{
+    padding: 10px 15px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+}
+.Admission-Requirements{
+    padding: 10px 15px;
+    margin-top: 1%;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.Contact-us{
+    padding: 10px 15px;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1%;
+}
+
