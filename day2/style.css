@@ -10,7 +10,7 @@ header{
 }
 
 h1{
-    color: blue;
+    color: rgb(249, 249, 252);
 }
 
 nav{
@@ -34,7 +34,7 @@ nav ul li a{
 }
 
 nav li:hover,a:hover{
-    background-color: gray;
+    background-color: blue;
 }
 
 h2{
@@ -112,3 +112,38 @@ section{
     margin-left: 0%;
     border-radius: 5%;  
 }
+
+/* header{
+    /* height:100px;
+    width:1000px; */
+    
+.head{
+    height:300px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(58, 58, 56);
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.head_txt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    padding-top: 6%;
+}
+
+button{
+    color: white;
+    background-color: blue;
+    padding:2%;
+    border-radius: 5px;
+}
+
+
