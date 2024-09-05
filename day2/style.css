@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(234, 227, 227);
+    background-color: white;
+    margin: 0%;
 }
 
 header{
@@ -16,6 +17,10 @@ nav{
     background-color: black;
     text-align: center;
 }
+nav ul{
+    margin-bottom: 0%;
+}
+
 
 nav ul li{
     list-style-type: none;
@@ -23,27 +28,41 @@ nav ul li{
     display:inline-block;
     padding: 10px 15px;
 }
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav li:hover,a:hover{
+    background-color: gray;
+}
 
 h2{
    color: blue 
 }
 
+h3{
+    color: blue;
+}
 .container{
-    background-color: rgb(234, 227, 227);
+    background-color: rgb(216, 210, 210);
+    padding: 1px;
 }
 
 .overview{
     background-color: rgb(255, 254, 254);
     padding: 10px 15px;
     padding-bottom: 5px;
-    
+    margin: 1%;
+    font-size: 13px;
 }
+
 .Curriculam{
     padding: 10px 15px;
     padding-top: 10px;
     background-color: rgb(255, 255, 255);
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin: 1%;
+    margin-top: 0%;
 }
 
 footer{
@@ -54,14 +73,42 @@ footer{
 }
 .Admission-Requirements{
     padding: 10px 15px;
-    margin-top: 1%;
     padding-top: 10px;
     background-color: rgb(255, 255, 255);
+    margin: 1%;
 }
 .Contact-us{
     padding: 10px 15px;
     margin-top: 1%;
     background-color: rgb(255, 255, 255);
     margin-bottom: 1%;
+    margin: 1%;
 }
 
+section{
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.Curriculam ul li{
+    list-style-type: none;
+    color: black;
+}
+
+.Curriculam ul{
+    margin-top: 1%;
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+}
+.Curriculam li{
+    list-style: none;
+    background-color: rgb(216, 222, 227);
+    padding: 12px;
+    text-align: center;
+    border-radius: 2%;
+    margin-left: 0%;
+    border-radius: 5%;  
+}
