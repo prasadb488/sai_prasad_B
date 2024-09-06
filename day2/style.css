@@ -52,7 +52,7 @@ h3{
 .overview{
     background-color: rgb(255, 254, 254);
     padding: 10px 15px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     margin: 1%;
     font-size: 13px;
 }
@@ -113,9 +113,6 @@ section{
     border-radius: 5%;  
 }
 
-/* header{
-    /* height:100px;
-    width:1000px; */
     
 .head{
     height:300px;
@@ -147,3 +144,28 @@ button{
 }
 
 
+.hexagon{
+    position: relative;
+    width:200px;
+    height:150px;
+    background-color: #b3b9bf;
+    color:blue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0% 50%);
+}
+
+.view{
+    display:grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap:10px;
+}
+
+.hexagon:nth-child(odd){
+margin-top: 45px;
+}
+.hexagon:hover{
+    background-color: yellow;
+}
