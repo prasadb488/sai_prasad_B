@@ -169,3 +169,48 @@ margin-top: 45px;
 .hexagon:hover{
     background-color: yellow;
 }
+.social-icons {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+.social-icons .icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .icon.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  
+  .icon.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  #about iframe{
+    margin-left: 30%;
+  }
+  #about{
+    background-color: white;
+  }
