@@ -52,7 +52,7 @@ h3{
 .overview{
     background-color: rgb(255, 254, 254);
     padding: 10px 15px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     margin: 1%;
     font-size: 13px;
 }
@@ -113,9 +113,6 @@ section{
     border-radius: 5%;  
 }
 
-/* header{
-    /* height:100px;
-    width:1000px; */
     
 .head{
     height:300px;
@@ -147,3 +144,73 @@ button{
 }
 
 
+.hexagon{
+    position: relative;
+    width:200px;
+    height:150px;
+    background-color: #b3b9bf;
+    color:blue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0% 50%);
+}
+
+.view{
+    display:grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap:10px;
+}
+
+.hexagon:nth-child(odd){
+margin-top: 45px;
+}
+.hexagon:hover{
+    background-color: yellow;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+.social-icons .icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .icon.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  
+  .icon.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  #about iframe{
+    margin-left: 30%;
+  }
+  #about{
+    background-color: white;
+  }
