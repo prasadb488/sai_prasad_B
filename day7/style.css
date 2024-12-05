@@ -1,0 +1,284 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0%;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+    color: rgb(249, 249, 252);
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+}
+nav ul{
+    margin-bottom: 0%;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    color:whitesmoke;
+    display:inline-block;
+    padding: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav li:hover,a:hover{
+    background-color: blue;
+}
+
+h2{
+   color: blue 
+}
+
+h3{
+    color: blue;
+}
+.container{
+    background-color: rgb(216, 210, 210);
+    padding: 1px;
+}
+
+.overview{
+    background-color: rgb(255, 254, 254);
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    margin: 1%;
+    font-size: 13px;
+}
+
+.Curriculam{
+    padding: 10px 15px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    margin-top: 0%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+}
+.Admission-Requirements{
+    padding: 10px 15px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+}
+.Contact-us{
+    padding: 10px 15px;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1%;
+    margin: 1%;
+}
+
+section{
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.Curriculam ul li{
+    list-style-type: none;
+    color: black;
+}
+
+.Curriculam ul{
+    margin-top: 1%;
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+}
+.Curriculam li{
+    list-style: none;
+    background-color: rgb(216, 222, 227);
+    padding: 12px;
+    text-align: center;
+    border-radius: 2%;
+    margin-left: 0%;
+    border-radius: 5%;  
+}
+
+    
+ /* .head{
+    height:300px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(58, 58, 56);
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 5px;
+    color: aliceblue;
+} */
+
+/* .head_txt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    padding-top: 6%;
+}*/
+
+button{
+    color: white;
+    background-color: blue;
+    padding:2%;
+    border-radius: 5px;
+}  
+
+
+.hexagon{
+    position: relative;
+    width:200px;
+    height:150px;
+    background-color: #b3b9bf;
+    color:blue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0% 50%);
+}
+
+.view{
+    display:grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap:10px;
+}
+
+.hexagon:nth-child(odd){
+margin-top: 45px;
+}
+.hexagon:hover{
+    background-color: yellow;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+.social-icons .icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .icon.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  
+  .icon.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  #about iframe{
+    margin-left: 30%;
+  }
+  #about{
+    background-color: white;
+  }
+
+  .hero-slider {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    padding-top: 30px;
+}
+
+#slide1 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png');
+}
+
+#slide2 {
+    background-image: url('https://t4.ftcdn.net/jpg/06/30/76/11/360_F_630761173_Hkeqf7J3DYfICjQQaMkTiSpCOK7XOq1q.jpg');
+}
+
+#slide3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5C13zYl665PfzCQlXBzoJ29qKNCVCdGDeV0Y38EeJ5BV1R1dBanPv4FVkZz-lzlfA5Fw&usqp=CAU');
+}
+
+@keyframes slide {
+    0% { opacity: 1; }
+    33.33% { opacity: 1; }
+    66.66% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#slide1 {
+    animation: slide 9s infinite;
+}
+
+#slide2 {
+    animation: slide 9s infinite;
+    animation-delay: 3s;
+}
+
+#slide3 {
+    animation: slide 9s infinite;
+    animation-delay: 6s;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75); /* Dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slide p{
+    padding-top: 0px;
+    color: white;
+}
